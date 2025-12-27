@@ -6,11 +6,11 @@ import { Briefcase, Calendar } from "lucide-react";
 const experiences = [
   {
     company: "Ariadi Technologies",
-    role: "Data / AI Intern",
+    role: "Frontend Developer",
     period: "2024",
     description: [
-      "Built data extraction and validation workflows",
-      "Improved data quality and accuracy at scale",
+      "Built responsive and performant web applications",
+      "Developed user interfaces with modern frontend frameworks",
       "Collaborated using Git and Agile practices",
     ],
   },

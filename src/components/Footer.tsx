@@ -1,4 +1,4 @@
-import { Github, Linkedin, Heart } from "lucide-react";
+import { Github, Linkedin, Heart, Cloud, Code2 } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -27,6 +27,22 @@ const Footer = () => {
               className="p-2 rounded-lg hover:bg-secondary/50 transition-colors"
             >
               <Linkedin className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
+            </a>
+            <a
+              href="https://azure.microsoft.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-lg hover:bg-secondary/50 transition-colors"
+            >
+              <Cloud className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
+            </a>
+            <a
+              href="https://leetcode.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-lg hover:bg-secondary/50 transition-colors"
+            >
+              <Code2 className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
             </a>
           </div>
 

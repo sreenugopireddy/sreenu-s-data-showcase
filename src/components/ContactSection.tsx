@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import { Mail, Github, Linkedin, Copy, Check, Send } from "lucide-react";
+import { Mail, Github, Linkedin, Copy, Check, Send, Cloud, Code2 } from "lucide-react";
 import { Button } from "./ui/button";
 import { toast } from "@/hooks/use-toast";
 
@@ -78,7 +78,7 @@ const ContactSection = () => {
             initial={{ opacity: 0 }}
             animate={isInView ? { opacity: 1 } : {}}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="flex items-center justify-center gap-4"
+            className="flex flex-wrap items-center justify-center gap-4"
           >
             <a
               href="https://github.com"
@@ -97,6 +97,24 @@ const ContactSection = () => {
             >
               <Linkedin className="h-5 w-5" />
               <span className="font-medium">LinkedIn</span>
+            </a>
+            <a
+              href="https://azure.microsoft.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-6 py-3 glass rounded-xl hover:bg-secondary/50 transition-colors hover-glow"
+            >
+              <Cloud className="h-5 w-5" />
+              <span className="font-medium">Azure</span>
+            </a>
+            <a
+              href="https://leetcode.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-6 py-3 glass rounded-xl hover:bg-secondary/50 transition-colors hover-glow"
+            >
+              <Code2 className="h-5 w-5" />
+              <span className="font-medium">LeetCode</span>
             </a>
           </motion.div>
         </motion.div>
