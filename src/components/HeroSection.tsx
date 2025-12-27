@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowDown, Download, Github, Linkedin } from "lucide-react";
+import { ArrowDown, Download, Github, Linkedin, Cloud, Code2 } from "lucide-react";
 import { Button } from "./ui/button";
 
 const floatingIcons = [
@@ -115,6 +115,22 @@ const HeroSection = () => {
             className="p-3 glass rounded-full hover:bg-secondary/50 transition-colors hover-glow"
           >
             <Linkedin className="h-5 w-5" />
+          </a>
+          <a
+            href="https://azure.microsoft.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-3 glass rounded-full hover:bg-secondary/50 transition-colors hover-glow"
+          >
+            <Cloud className="h-5 w-5" />
+          </a>
+          <a
+            href="https://leetcode.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-3 glass rounded-full hover:bg-secondary/50 transition-colors hover-glow"
+          >
+            <Code2 className="h-5 w-5" />
           </a>
         </motion.div>
 
