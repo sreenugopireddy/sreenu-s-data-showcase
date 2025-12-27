@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { MapPin, Mail, Sparkles } from "lucide-react";
+import profileImage from "@/assets/profile-anime.png";
 
 const AboutSection = () => {
   const ref = useRef(null);
@@ -53,9 +54,11 @@ const AboutSection = () => {
               className="relative"
             >
               <div className="aspect-square rounded-2xl overflow-hidden glass glow-purple">
-                <div className="w-full h-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-                  <span className="text-6xl font-bold gradient-text">SG</span>
-                </div>
+                <img 
+                  src={profileImage} 
+                  alt="Sreenu Gopireddy - Anime Portrait" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-accent/20 rounded-full blur-[60px]" />
             </motion.div>
