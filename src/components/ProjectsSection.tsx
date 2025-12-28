@@ -11,6 +11,8 @@ const projects = [
     tools: ["Power BI", "Excel", "ETL", "DAX"],
     icon: BarChart2,
     gradient: "from-primary/20 to-primary/5",
+    github: "#", // Add your GitHub URL here
+    demo: "#", // Add your live demo URL here
   },
   {
     title: "Smart Grid Energy Demand Forecasting",
@@ -18,6 +20,8 @@ const projects = [
     tools: ["Python", "Time Series", "ML", "Pandas"],
     icon: Zap,
     gradient: "from-accent/20 to-accent/5",
+    github: "#", // Add your GitHub URL here
+    demo: "#", // Add your live demo URL here
   },
 ];
 
@@ -85,13 +89,17 @@ const ProjectsSection = () => {
                   </div>
 
                   <div className="flex gap-3">
-                    <Button variant="outline" size="sm" className="flex-1">
-                      <Github className="h-4 w-4 mr-2" />
-                      GitHub
+                    <Button variant="outline" size="sm" className="flex-1" asChild>
+                      <a href={project.github} target="_blank" rel="noopener noreferrer">
+                        <Github className="h-4 w-4 mr-2" />
+                        GitHub
+                      </a>
                     </Button>
-                    <Button variant="outline" size="sm" className="flex-1">
-                      <ExternalLink className="h-4 w-4 mr-2" />
-                      Live Demo
+                    <Button variant="outline" size="sm" className="flex-1" asChild>
+                      <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="h-4 w-4 mr-2" />
+                        Live Demo
+                      </a>
                     </Button>
                   </div>
                 </div>
