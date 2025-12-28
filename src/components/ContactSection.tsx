@@ -81,7 +81,7 @@ const ContactSection = () => {
             className="flex flex-wrap items-center justify-center gap-4"
           >
             <a
-              href="https://github.com"
+              href="https://github.com/sreenugopireddy"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 glass rounded-xl hover:bg-secondary/50 transition-colors hover-glow"
@@ -90,7 +90,7 @@ const ContactSection = () => {
               <span className="font-medium">GitHub</span>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/sreenu-gopireddy/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 glass rounded-xl hover:bg-secondary/50 transition-colors hover-glow"
@@ -99,16 +99,16 @@ const ContactSection = () => {
               <span className="font-medium">LinkedIn</span>
             </a>
             <a
-              href="https://azure.microsoft.com"
+              href="https://learn.microsoft.com/en-in/users/sreenugopireddy-1886"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 glass rounded-xl hover:bg-secondary/50 transition-colors hover-glow"
             >
               <Cloud className="h-5 w-5" />
-              <span className="font-medium">Azure</span>
+              <span className="font-medium">Microsoft Learn</span>
             </a>
             <a
-              href="https://leetcode.com"
+              href="https://leetcode.com/u/sreenu_24/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 glass rounded-xl hover:bg-secondary/50 transition-colors hover-glow"

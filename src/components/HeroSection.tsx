@@ -101,7 +101,7 @@ const HeroSection = () => {
           className="flex items-center justify-center gap-4"
         >
           <a
-            href="https://github.com"
+            href="https://github.com/sreenugopireddy"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 glass rounded-full hover:bg-secondary/50 transition-colors hover-glow"
@@ -109,7 +109,7 @@ const HeroSection = () => {
             <Github className="h-5 w-5" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/sreenu-gopireddy/"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 glass rounded-full hover:bg-secondary/50 transition-colors hover-glow"
@@ -117,7 +117,7 @@ const HeroSection = () => {
             <Linkedin className="h-5 w-5" />
           </a>
           <a
-            href="https://azure.microsoft.com"
+            href="https://learn.microsoft.com/en-in/users/sreenugopireddy-1886"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 glass rounded-full hover:bg-secondary/50 transition-colors hover-glow"
@@ -125,7 +125,7 @@ const HeroSection = () => {
             <Cloud className="h-5 w-5" />
           </a>
           <a
-            href="https://leetcode.com"
+            href="https://leetcode.com/u/sreenu_24/"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 glass rounded-full hover:bg-secondary/50 transition-colors hover-glow"
