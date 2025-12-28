@@ -13,7 +13,7 @@ const Footer = () => {
 
           <div className="flex items-center gap-4">
             <a
-              href="https://github.com"
+              href="https://github.com/sreenugopireddy"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg hover:bg-secondary/50 transition-colors"
@@ -21,7 +21,7 @@ const Footer = () => {
               <Github className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/sreenu-gopireddy/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg hover:bg-secondary/50 transition-colors"
@@ -29,7 +29,7 @@ const Footer = () => {
               <Linkedin className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
             </a>
             <a
-              href="https://azure.microsoft.com"
+              href="https://learn.microsoft.com/en-in/users/sreenugopireddy-1886"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg hover:bg-secondary/50 transition-colors"
@@ -37,7 +37,7 @@ const Footer = () => {
               <Cloud className="h-5 w-5 text-muted-foreground hover:text-foreground transition-colors" />
             </a>
             <a
-              href="https://leetcode.com"
+              href="https://leetcode.com/u/sreenu_24/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg hover:bg-secondary/50 transition-colors"
