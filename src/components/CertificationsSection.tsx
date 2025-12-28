@@ -24,6 +24,21 @@ const certifications = [
     issuer: "Microsoft",
     icon: FileSpreadsheet,
   },
+  {
+    title: "ETL in Power BI",
+    issuer: "Microsoft (Coursera)",
+    icon: Database,
+  },
+  {
+    title: "Data Analysis & Visualization",
+    issuer: "Microsoft (Coursera)",
+    icon: BarChart2,
+  },
+  {
+    title: "Harnessing Power of Data",
+    issuer: "Microsoft (Coursera)",
+    icon: FileSpreadsheet,
+  },
 ];
 
 const CertificationsSection = () => {
@@ -48,7 +63,7 @@ const CertificationsSection = () => {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-4 max-w-6xl mx-auto">
           {certifications.map((cert, index) => (
             <motion.div
               key={cert.title}
