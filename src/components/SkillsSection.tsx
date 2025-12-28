@@ -1,26 +1,32 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Database, Brain, Code, BarChart3, GitBranch, Cpu } from "lucide-react";
+import { Database, Brain, Code, BarChart3, GitBranch, Cpu, Cloud, Server } from "lucide-react";
 
 const skillCategories = [
   {
     title: "Data & Analytics",
     icon: BarChart3,
     color: "from-primary to-primary/50",
-    skills: ["Python", "SQL", "Excel", "Power BI", "EDA", "Statistics"],
+    skills: ["Python", "SQL", "Excel", "Power BI", "Tableau", "EDA", "Statistics", "Data Wrangling", "ETL", "Data Visualization"],
   },
   {
     title: "Machine Learning & AI",
     icon: Brain,
     color: "from-accent to-accent/50",
-    skills: ["ML Models", "Time Series Forecasting", "Feature Engineering", "Model Evaluation"],
+    skills: ["Scikit-learn", "TensorFlow", "PyTorch", "Deep Learning", "NLP", "Computer Vision", "Time Series Forecasting", "Feature Engineering", "Model Evaluation", "Hyperparameter Tuning"],
   },
   {
-    title: "Tools & Web",
+    title: "Cloud & MLOps",
+    icon: Cloud,
+    color: "from-cyan-500 to-cyan-500/50",
+    skills: ["AWS", "Azure", "Docker", "MLflow", "Jupyter", "SageMaker", "CI/CD", "Model Deployment"],
+  },
+  {
+    title: "Tools & Development",
     icon: Code,
     color: "from-primary to-accent",
-    skills: ["Git", "GitHub", "HTML", "CSS", "JavaScript", "TypeScript"],
+    skills: ["Git", "GitHub", "VS Code", "Linux", "Pandas", "NumPy", "Matplotlib", "Seaborn", "HTML", "CSS", "JavaScript", "TypeScript", "React"],
   },
 ];
 
@@ -51,7 +57,7 @@ const SkillsSection = () => {
           </h2>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {skillCategories.map((category, index) => (
             <motion.div
               key={category.title}
